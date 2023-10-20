@@ -14,6 +14,9 @@ Daily risk manager for the Binance crypto exchange
 * "balance_update_time_start" - начало временного периода обновления сведений о балансе кошелька (раз в день обновляется доступный баланс);
 * "balance_update_time_end"   - окончание временного периода обновления сведений о балансе кошелька;
 
+А также для авторизации на бирже файлы /json/cookies.json и /json/headers.json<br>
+<br>
+
 При развертывание на VPS рекомендуется создать сервис для управления скриптом: <br>
 ```console
 foo@bar:~$ sudo nano /lib/systemd/system/day_risk_manager.service
